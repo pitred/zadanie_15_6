@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'normalize';
+
+body {
+    background-color: green;
+    font-family: $body-font;
+
+    button {
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+
+    }
+
+    .board {
+
+        .column-container {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
