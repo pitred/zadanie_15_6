@@ -2,21 +2,40 @@
 @import 'normalize';
 
 body {
-    background-color: green;
+    background-color: $bg-color;
     font-family: $body-font;
 
     button {
         cursor: pointer;
-        display: flex;
-        align-self: center;
+        border-radius: 5px;
+        border: none;
+
 
     }
 
+    h1 {
+        display: flex;
+        justify-content: left;
+    }
+
     .board {
+        padding: 20px;
 
         .column-container {
             display: flex;
             justify-content: space-around;
+            padding-top: 20px;
+        }
+    }
+
+    .column {
+        border: 2px solid yellow;
+        padding: 5px 20px;
+    }
+
+    .card {
+        .card-description {
+            line-height: 5px;
         }
     }
 }
