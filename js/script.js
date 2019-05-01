@@ -102,11 +102,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // creating cards
     var card1 = new Card('New task');
     var card2 = new Card('Create kanban boards');
-    var card3 = new Card('Drop here when done');
 
     // adding cards to columns
     todoColumn.addCard(card1);
     doingColumn.addCard(card2);
-    doneColumn.addCard(card3);
-
 });
